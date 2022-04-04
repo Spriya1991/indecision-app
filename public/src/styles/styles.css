@@ -1,0 +1,82 @@
+*{
+    background-color: #333745;
+
+}
+h1{
+font-size: 3.2rem;
+margin: 0;
+text-align: center;
+
+}
+h2{
+    color:#a5afd7;
+    font-size:1.6rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+
+    
+}
+#big_button{
+    font-size:2.8rem;
+    background-color: #8357c5;
+    border:none;
+    font-weight: bold;
+    color: white;
+    width:50%;
+    margin-bottom: 4.8rem;
+    margin-left: 25%;
+    padding:2.4rem;
+    border-bottom: .6rem solid darken(#8357c5, 10%);
+    align-items: center;
+
+}
+#big_button:disabled{
+    opacity: 0.5;
+}
+
+
+#bt2{
+    
+    background: #8357c5;
+    border:none;
+    font-weight: 500;
+    color: #a5afd7;
+    padding:0.8rem;
+    border-bottom: .6rem solid darken(#8357c5, 10%);
+    }
+
+#bt2 button--link{
+    color:white;
+    border:none;
+    background:none;
+    
+}
+#widget{
+background:#3c4251;
+display: flex;
+color:#a5afd7;
+justify-content:space-between;
+padding:1.6rem;
+}
+#widget widget--link{
+
+    margin: 0;
+    
+}
+.errorline{
+    margin:0;
+    color:#a5afd7;
+    padding:1.6rem;
+    text-align: center;
+}
+.options{
+    color:#a5afd7;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.Reactmodal{
+    color:peru;
+}
